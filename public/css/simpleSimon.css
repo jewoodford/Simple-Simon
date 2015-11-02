@@ -1,0 +1,92 @@
+body {
+	background: url(/img/companionCube.jpeg)
+}
+.simonBtn {
+	height: 270px;
+	width: 200px;
+	border: 0px;
+	outline: none;
+}
+.simonBtn:hover {
+	opacity:0.6;
+}
+
+.dimBtn {
+	opacity: 0.3;
+}
+
+.brightBtn {
+	opacity: 1;
+}
+
+#redBtn {
+	background: url(/img/redPortal.png);
+	background-repeat: no-repeat;
+}
+
+#yellowBtn {
+	background: url(/img/yellowPortal.png);
+	background-repeat: no-repeat;
+}
+
+#greenBtn{
+	background: url(/img/greenPortal.png);
+	background-repeat: no-repeat;
+}
+
+#blueBtn{
+	background: url(/img/bluePortal.png);
+	background-repeat: no-repeat;
+}
+
+#simonGame{
+	padding-left: 20px;
+	margin-right: 485px;
+	margin-left: 500px;
+	background: black;
+	border-radius: 50px;
+}
+
+#startBtn {
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+	border: 0px;
+	height: 100px;
+	width: 150px;
+	margin-left: 120px;
+	background: url(/img/portalTurret.png);
+	background-repeat: no-repeat;
+}
+
+#secret {
+	height: 220px;
+	width: 300px;
+	margin-top: -50px;
+	background: url(/img/portalCake.png);
+	background-repeat: no-repeat;
+}
+
+#secret:hover {
+	background: url(/img/theLie.png);
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+#winStatus {
+	margin-top: -10px;
+	color: yellow;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#restartBtn {
+	height: 75px;
+	width: 70px;
+	border: none;
+	background: url(/img/replayRound.png);
+	background-repeat: no-repeat;
+}
